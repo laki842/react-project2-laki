@@ -1,0 +1,96 @@
+.signup {
+  width: 500px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  z-index: 10;
+  border-radius: 2rem;
+  box-shadow: 0 0 5px #050222, 0 0 25px #010008, 0 0 50px #3c29eb,
+    0 0 200px #210ce2;
+  position: relative;
+  background-color: #e9e6f5;
+}
+
+.signup-username,
+.signup-email,
+.signup-password,
+.signup-confirm-password {
+  margin-top: 10px;
+}
+
+.signup-input {
+  height: 30px;
+  width: 300px;
+}
+
+.signup-wrapper {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  justify-content: center;
+  background-color: rgba(4, 6, 100, 0.5);
+}
+
+.close-btn {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+}
+
+.signup-btn {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+}
+
+.signup-icon {
+  background-color: red;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.signup-input {
+  border-radius: 1rem;
+  padding: 10px;
+  border: 1px solid #210ce2;
+}
+
+.signup-input:focus {
+  outline: 2px solid #4534da;
+}
+
+.signup-input::placeholder {
+  font-size: 18px;
+}
+
+.btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.signup-submit-btn {
+  padding: 1rem;
+  background-color: rgb(242, 243, 233);
+  color: rgb(40, 19, 59);
+  margin-top: 10px;
+  border-radius: 4px;
+  font-weight: 900;
+  font-size: 20px;
+  border: 2px solid;
+}
+
+.signup-submit-btn:hover {
+  background-color: rgb(15, 20, 63);
+  color: rgb(220, 233, 245);
+  cursor: pointer;
+}

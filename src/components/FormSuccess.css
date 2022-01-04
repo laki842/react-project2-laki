@@ -1,0 +1,32 @@
+.success-wrapper {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  justify-content: center;
+  background-color: rgba(4, 6, 100, 0.5);
+}
+
+.success-container {
+  width: 500px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  z-index: 10;
+  border-radius: 2rem;
+  box-shadow: 0 0 5px #050222, 0 0 25px #010008, 0 0 50px #25962b,
+    0 0 200px #058f0c;
+  position: relative;
+  background-color: #e9e6f5;
+}
+
+.success-img {
+  width: 300px;
+  height: 300px;
+}

@@ -1,0 +1,21 @@
+.modal-container {
+  display: flex;
+  width: 500px;
+  background-color: rgb(178, 222, 240);
+  padding: 20px;
+}
+
+.modal-img {
+  width: 200px;
+  height: 200px;
+  margin-right: 15px;
+}
+
+.modal-container p {
+  font-weight: 800;
+}
+
+.modal-container span {
+  font-size: 20px;
+  color: rgb(17, 8, 58);
+}
